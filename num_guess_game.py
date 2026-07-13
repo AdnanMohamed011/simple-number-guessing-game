@@ -14,3 +14,6 @@ while attempts < 3:
         print("Hot! You are so close!")
     else:
         print("Cold, not close.")
+    
+    if attempts == 3 and user_num != random_num:
+        print("You are out of attempts. Game over.")
